@@ -13,23 +13,23 @@
 			"rolename":	"admin",
 			"acls":	[{
 					"acltype":	"publishClientSend",
-					"topic":	"$CONTROL/dynamic-security/#",
+					"topic":	"#",
 					"allow":	true
 				}, {
 					"acltype":	"publishClientReceive",
-					"topic":	"$CONTROL/dynamic-security/#",
+					"topic":	"#",
 					"allow":	true
 				}, {
 					"acltype":	"subscribePattern",
-					"topic":	"$CONTROL/dynamic-security/#",
+					"topic":	"#",
 					"allow":	true
 				}, {
 					"acltype":	"publishClientReceive",
-					"topic":	"$SYS/#",
+					"topic":	"#",
 					"allow":	true
 				}, {
 					"acltype":	"subscribePattern",
-					"topic":	"$SYS/#",
+					"topic":	"#",
 					"allow":	true
 				}, {
 					"acltype":	"publishClientReceive",
@@ -46,9 +46,9 @@
 				}]
 		}],
 	"defaultACLAccess":	{
-		"publishClientSend":	false,
+		"publishClientSend":	true,
 		"publishClientReceive":	true,
-		"subscribe":	false,
+		"subscribe":	true,
 		"unsubscribe":	true
 	}
 }
